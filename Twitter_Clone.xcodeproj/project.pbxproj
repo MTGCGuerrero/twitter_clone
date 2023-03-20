@@ -18,6 +18,7 @@
 		908BDBEA29C778720097F562 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908BDBE929C778720097F562 /* MessagesView.swift */; };
 		90B6E98A29C89C900032663A /* CreateTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B6E98929C89C900032663A /* CreateTweetView.swift */; };
 		90B6E98D29C89F770032663A /* MultilineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B6E98C29C89F770032663A /* MultilineTextField.swift */; };
+		90B6E99029C8A4460032663A /* TweetCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B6E98F29C8A4460032663A /* TweetCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		908BDBE929C778720097F562 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
 		90B6E98929C89C900032663A /* CreateTweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTweetView.swift; sourceTree = "<group>"; };
 		90B6E98C29C89F770032663A /* MultilineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextField.swift; sourceTree = "<group>"; };
+		90B6E98F29C8A4460032663A /* TweetCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				908BDBE029C778490097F562 /* Feed.swift */,
+				90B6E98F29C8A4460032663A /* TweetCellView.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90B6E99029C8A4460032663A /* TweetCellView.swift in Sources */,
 				90B6E98A29C89C900032663A /* CreateTweetView.swift in Sources */,
 				908BDBE429C778560097F562 /* SearchView.swift in Sources */,
 				908BDBE129C778490097F562 /* Feed.swift in Sources */,
