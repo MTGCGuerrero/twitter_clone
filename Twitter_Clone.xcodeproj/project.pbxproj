@@ -20,6 +20,9 @@
 		90B5889229CB4ADB001C4955 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B5889129CB4ADB001C4955 /* MessageCell.swift */; };
 		90B5889529CB4E42001C4955 /* TopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B5889429CB4E42001C4955 /* TopBar.swift */; };
 		90B5889829CB509D001C4955 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B5889729CB509D001C4955 /* MainView.swift */; };
+		90B5889B29CB5277001C4955 /* SlideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B5889A29CB5277001C4955 /* SlideMenu.swift */; };
+		90B5889E29CB5422001C4955 /* FollowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B5889D29CB5422001C4955 /* FollowView.swift */; };
+		90B588A129CB5AC3001C4955 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B588A029CB5AC3001C4955 /* MenuButton.swift */; };
 		90B6E98A29C89C900032663A /* CreateTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B6E98929C89C900032663A /* CreateTweetView.swift */; };
 		90B6E98D29C89F770032663A /* MultilineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B6E98C29C89F770032663A /* MultilineTextField.swift */; };
 		90B6E99029C8A4460032663A /* TweetCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B6E98F29C8A4460032663A /* TweetCellView.swift */; };
@@ -45,6 +48,9 @@
 		90B5889129CB4ADB001C4955 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		90B5889429CB4E42001C4955 /* TopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBar.swift; sourceTree = "<group>"; };
 		90B5889729CB509D001C4955 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		90B5889A29CB5277001C4955 /* SlideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenu.swift; sourceTree = "<group>"; };
+		90B5889D29CB5422001C4955 /* FollowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowView.swift; sourceTree = "<group>"; };
+		90B588A029CB5AC3001C4955 /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
 		90B6E98929C89C900032663A /* CreateTweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTweetView.swift; sourceTree = "<group>"; };
 		90B6E98C29C89F770032663A /* MultilineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextField.swift; sourceTree = "<group>"; };
 		90B6E98F29C8A4460032663A /* TweetCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCellView.swift; sourceTree = "<group>"; };
@@ -171,6 +177,8 @@
 			children = (
 				90B6E98C29C89F770032663A /* MultilineTextField.swift */,
 				90B6E99929C8BC6A0032663A /* SearchBar.swift */,
+				90B5889D29CB5422001C4955 /* FollowView.swift */,
+				90B588A029CB5AC3001C4955 /* MenuButton.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -225,6 +233,7 @@
 				908BDBDD29C771E80097F562 /* Home.swift */,
 				90B5889429CB4E42001C4955 /* TopBar.swift */,
 				90B5889729CB509D001C4955 /* MainView.swift */,
+				90B5889A29CB5277001C4955 /* SlideMenu.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -300,9 +309,11 @@
 			files = (
 				90B6E99029C8A4460032663A /* TweetCellView.swift in Sources */,
 				90B5889829CB509D001C4955 /* MainView.swift in Sources */,
+				90B588A129CB5AC3001C4955 /* MenuButton.swift in Sources */,
 				90B5889229CB4ADB001C4955 /* MessageCell.swift in Sources */,
 				90B6E99729C8B1780032663A /* SearchCell.swift in Sources */,
 				90B6E98A29C89C900032663A /* CreateTweetView.swift in Sources */,
+				90B5889B29CB5277001C4955 /* SlideMenu.swift in Sources */,
 				908BDBE429C778560097F562 /* SearchView.swift in Sources */,
 				90B6E99D29C8C2B30032663A /* SearchUserCell.swift in Sources */,
 				908BDBE129C778490097F562 /* Feed.swift in Sources */,
@@ -310,6 +321,7 @@
 				908BDBBE29C76D600097F562 /* ContentView.swift in Sources */,
 				90B5889529CB4E42001C4955 /* TopBar.swift in Sources */,
 				908BDBDE29C771E80097F562 /* Home.swift in Sources */,
+				90B5889E29CB5422001C4955 /* FollowView.swift in Sources */,
 				908BDBEA29C778720097F562 /* MessagesView.swift in Sources */,
 				90B6E98D29C89F770032663A /* MultilineTextField.swift in Sources */,
 				908BDBBC29C76D600097F562 /* Twitter_CloneApp.swift in Sources */,
