@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		907C3FC029CF759F000302AD /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907C3FBF29CF759F000302AD /* TabButton.swift */; };
 		907EB85229CE2C850050BC1A /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907EB85129CE2C850050BC1A /* UserProfile.swift */; };
 		907EB85529CE2EAB0050BC1A /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907EB85429CE2EAB0050BC1A /* BlurView.swift */; };
 		908BDBBC29C76D600097F562 /* Twitter_CloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908BDBBB29C76D600097F562 /* Twitter_CloneApp.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		907C3FBF29CF759F000302AD /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
 		907EB85129CE2C850050BC1A /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		907EB85429CE2EAB0050BC1A /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		908BDBB829C76D600097F562 /* Twitter_Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitter_Clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -185,6 +187,7 @@
 				90B6E99929C8BC6A0032663A /* SearchBar.swift */,
 				90B5889D29CB5422001C4955 /* FollowView.swift */,
 				90B588A029CB5AC3001C4955 /* MenuButton.swift */,
+				907C3FBF29CF759F000302AD /* TabButton.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 				90B6E98D29C89F770032663A /* MultilineTextField.swift in Sources */,
 				908BDBBC29C76D600097F562 /* Twitter_CloneApp.swift in Sources */,
 				908BDBE729C778660097F562 /* NotificationsView.swift in Sources */,
+				907C3FC029CF759F000302AD /* TabButton.swift in Sources */,
 				90B5888F29CB4642001C4955 /* NotificationCell.swift in Sources */,
 				90B6E9A029C8C50D0032663A /* Extensions.swift in Sources */,
 			);
