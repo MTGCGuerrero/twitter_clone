@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		907C3FC029CF759F000302AD /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907C3FBF29CF759F000302AD /* TabButton.swift */; };
+		907C3FC329CFA1F3000302AD /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907C3FC229CFA1F3000302AD /* WelcomeView.swift */; };
 		907EB85229CE2C850050BC1A /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907EB85129CE2C850050BC1A /* UserProfile.swift */; };
 		907EB85529CE2EAB0050BC1A /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907EB85429CE2EAB0050BC1A /* BlurView.swift */; };
 		908BDBBC29C76D600097F562 /* Twitter_CloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908BDBBB29C76D600097F562 /* Twitter_CloneApp.swift */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		907C3FBF29CF759F000302AD /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		907C3FC229CFA1F3000302AD /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		907EB85129CE2C850050BC1A /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		907EB85429CE2EAB0050BC1A /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		908BDBB829C76D600097F562 /* Twitter_Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitter_Clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -195,6 +197,7 @@
 		908BDBD629C770270097F562 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				907C3FC229CFA1F3000302AD /* WelcomeView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -336,6 +339,7 @@
 				907EB85229CE2C850050BC1A /* UserProfile.swift in Sources */,
 				90B6E98D29C89F770032663A /* MultilineTextField.swift in Sources */,
 				908BDBBC29C76D600097F562 /* Twitter_CloneApp.swift in Sources */,
+				907C3FC329CFA1F3000302AD /* WelcomeView.swift in Sources */,
 				908BDBE729C778660097F562 /* NotificationsView.swift in Sources */,
 				907C3FC029CF759F000302AD /* TabButton.swift in Sources */,
 				90B5888F29CB4642001C4955 /* NotificationCell.swift in Sources */,
