@@ -34,6 +34,9 @@
 		90B6E99A29C8BC6A0032663A /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B6E99929C8BC6A0032663A /* SearchBar.swift */; };
 		90B6E99D29C8C2B30032663A /* SearchUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B6E99C29C8C2B30032663A /* SearchUserCell.swift */; };
 		90B6E9A029C8C50D0032663A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B6E99F29C8C50D0032663A /* Extensions.swift */; };
+		90F78A6229D0950600371869 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F78A6129D0950600371869 /* RegisterView.swift */; };
+		90F78A6529D0965300371869 /* CustomAuthTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F78A6429D0965300371869 /* CustomAuthTextField.swift */; };
+		90F78A6829D0978E00371869 /* SecureAuthTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F78A6729D0978E00371869 /* SecureAuthTextfield.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +69,9 @@
 		90B6E99929C8BC6A0032663A /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		90B6E99C29C8C2B30032663A /* SearchUserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUserCell.swift; sourceTree = "<group>"; };
 		90B6E99F29C8C50D0032663A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		90F78A6129D0950600371869 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		90F78A6429D0965300371869 /* CustomAuthTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAuthTextField.swift; sourceTree = "<group>"; };
+		90F78A6729D0978E00371869 /* SecureAuthTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureAuthTextfield.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +196,8 @@
 				90B5889D29CB5422001C4955 /* FollowView.swift */,
 				90B588A029CB5AC3001C4955 /* MenuButton.swift */,
 				907C3FBF29CF759F000302AD /* TabButton.swift */,
+				90F78A6429D0965300371869 /* CustomAuthTextField.swift */,
+				90F78A6729D0978E00371869 /* SecureAuthTextfield.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -198,6 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				907C3FC229CFA1F3000302AD /* WelcomeView.swift */,
+				90F78A6129D0950600371869 /* RegisterView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -333,7 +342,10 @@
 				90B6E99A29C8BC6A0032663A /* SearchBar.swift in Sources */,
 				908BDBBE29C76D600097F562 /* ContentView.swift in Sources */,
 				90B5889529CB4E42001C4955 /* TopBar.swift in Sources */,
+				90F78A6829D0978E00371869 /* SecureAuthTextfield.swift in Sources */,
 				908BDBDE29C771E80097F562 /* Home.swift in Sources */,
+				90F78A6529D0965300371869 /* CustomAuthTextField.swift in Sources */,
+				90F78A6229D0950600371869 /* RegisterView.swift in Sources */,
 				90B5889E29CB5422001C4955 /* FollowView.swift in Sources */,
 				908BDBEA29C778720097F562 /* MessagesView.swift in Sources */,
 				907EB85229CE2C850050BC1A /* UserProfile.swift in Sources */,
