@@ -37,6 +37,7 @@
 		90F78A6229D0950600371869 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F78A6129D0950600371869 /* RegisterView.swift */; };
 		90F78A6529D0965300371869 /* CustomAuthTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F78A6429D0965300371869 /* CustomAuthTextField.swift */; };
 		90F78A6829D0978E00371869 /* SecureAuthTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F78A6729D0978E00371869 /* SecureAuthTextfield.swift */; };
+		90F78A6B29D09A3600371869 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F78A6A29D09A3600371869 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		90F78A6129D0950600371869 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		90F78A6429D0965300371869 /* CustomAuthTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAuthTextField.swift; sourceTree = "<group>"; };
 		90F78A6729D0978E00371869 /* SecureAuthTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureAuthTextfield.swift; sourceTree = "<group>"; };
+		90F78A6A29D09A3600371869 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +209,7 @@
 			children = (
 				907C3FC229CFA1F3000302AD /* WelcomeView.swift */,
 				90F78A6129D0950600371869 /* RegisterView.swift */,
+				90F78A6A29D09A3600371869 /* LoginView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90B6E99029C8A4460032663A /* TweetCellView.swift in Sources */,
+				90F78A6B29D09A3600371869 /* LoginView.swift in Sources */,
 				90B5889829CB509D001C4955 /* MainView.swift in Sources */,
 				907EB85529CE2EAB0050BC1A /* BlurView.swift in Sources */,
 				90B588A129CB5AC3001C4955 /* MenuButton.swift in Sources */,
